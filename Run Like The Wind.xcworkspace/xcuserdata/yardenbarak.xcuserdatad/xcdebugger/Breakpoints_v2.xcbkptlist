@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EF7D22EA-A7A2-40A8-9130-45C06607A64B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "392CFB77-6BE9-43BA-8A3C-C1EDF8BD01E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/controllers/BMIController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "weightSliderChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/controllers/BMIController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "BMIController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - 30065963e92a6eca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.currentHeight.getter : Swift.Float"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - d37c849ead32120e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.currentHeight.setter : Swift.Float"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - 5d4b82e6280b55eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.currentHeight.modify : Swift.Float"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - 4d67508b809432f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.currentHeight.modify : Swift.Float with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - 3dc4c1bece266620"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Run_Like_The_Wind.BMIController"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "397">
+               </Location>
+               <Location
+                  uuid = "56977839-AC9C-458A-B33B-93ACD5C0242B - d1f2aa6e960891b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Run_Like_The_Wind.BMIController&gt;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "341">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/controllers/BMIController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "BMIController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - 937f43dc54b542b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.BMI_LBL_weight.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - cd79aa5dcd81b037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.BMI_LBL_weight.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - 616a1a42f1bd8e8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.BMI_LBL_weight.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - 2c0d7059a4fc4e64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.BMI_LBL_weight.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - 3dc4c1bece2661bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Run_Like_The_Wind.BMIController"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  uuid = "22F6537B-AFEF-458E-BC15-90B105670BAE - d1f2aa6e9608e86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Run_Like_The_Wind.BMIController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Run_Like_The_Wind.BMIController&gt;"
+                  moduleName = "Run Like The Wind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yardenbarak/Desktop/Development/Run%20Like%20The%20Wind/Run%20Like%20The%20Wind/controllers/BMIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "225">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4BD46F0-1756-436B-B87B-F84100623F85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/MVP/views/RunHistoryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C0CD1A8-7E3D-45E5-8B15-8CF3CFA6F659"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/MVP/views/RunHistoryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "RunHistoryController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "428833B2-A623-4CCC-BB99-A551D3D3DCFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/MVP/views/RunHistoryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D66CA23-DEC3-4393-9645-D626B6CE2ABF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/MVP/views/SignInController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "647BD5C4-48CC-4B9A-AF5B-F6D1C62E08F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29DE2694-BAE3-4B19-857B-780C4D38EA68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Run Like The Wind/MVP/views/StatisticsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

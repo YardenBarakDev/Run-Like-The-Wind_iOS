@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3638BF04BB7C5C2B3C80CFE /* Pods_Run_Like_The_Wind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E83D11DD761395A88E2B82 /* Pods_Run_Like_The_Wind.framework */; };
+		FE0258AB269AF20A003B1D0D /* StatisticsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0258AA269AF20A003B1D0D /* StatisticsPresenter.swift */; };
+		FE0258AF269B1E86003B1D0D /* StatisticsScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0258AE269B1E86003B1D0D /* StatisticsScores.swift */; };
+		FE0258B1269CE7E5003B1D0D /* StatisticsDBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0258B0269CE7E5003B1D0D /* StatisticsDBAccess.swift */; };
+		FE0893642688C4B200C8BAA4 /* SingleRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0893632688C4B200C8BAA4 /* SingleRun.swift */; };
+		FE34989D268CD1F5008ACC74 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE34989C268CD1F5008ACC74 /* UserAccount.swift */; };
+		FE3498A0268CD394008ACC74 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE34989F268CD394008ACC74 /* Constants.swift */; };
+		FE3498A5268CDDBB008ACC74 /* SigninPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3498A4268CDDBB008ACC74 /* SigninPresenter.swift */; };
+		FE3498A7268D036A008ACC74 /* RunHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3498A6268D036A008ACC74 /* RunHistoryPresenter.swift */; };
+		FE3498A9268F5261008ACC74 /* RunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3498A8268F5261008ACC74 /* RunController.swift */; };
+		FE3498AD268FA115008ACC74 /* LocationPermissionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3498AC268FA115008ACC74 /* LocationPermissionHelper.swift */; };
+		FE368730268A297700A19DD5 /* BMIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE36872F268A297700A19DD5 /* BMIController.swift */; };
+		FE368732268A311100A19DD5 /* StatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE368731268A311100A19DD5 /* StatisticsController.swift */; };
+		FE368737268A4B6E00A19DD5 /* RunsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE368735268A4B6E00A19DD5 /* RunsTableViewCell.swift */; };
+		FE368738268A4B6E00A19DD5 /* RunsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE368736268A4B6E00A19DD5 /* RunsTableViewCell.xib */; };
+		FE3F5F5126821B0000961C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F5F5026821B0000961C50 /* AppDelegate.swift */; };
+		FE3F5F5326821B0000961C50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F5F5226821B0000961C50 /* SceneDelegate.swift */; };
+		FE3F5F5826821B0000961C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3F5F5626821B0000961C50 /* Main.storyboard */; };
+		FE3F5F5A26821B0000961C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3F5F5926821B0000961C50 /* Assets.xcassets */; };
+		FE3F5F5D26821B0000961C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3F5F5B26821B0000961C50 /* LaunchScreen.storyboard */; };
+		FE3F5F6626821D2600961C50 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F5F6526821D2600961C50 /* SignInController.swift */; };
+		FE3F5F6C268231B100961C50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE3F5F6B268231B100961C50 /* GoogleService-Info.plist */; };
+		FE3F5F6E2683E40E00961C50 /* RunHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F5F6D2683E40E00961C50 /* RunHistoryController.swift */; };
+		FE4592EE26979BF100472829 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4592ED26979BF100472829 /* Extentions.swift */; };
+		FE4592F2269A2B2300472829 /* RunDBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4592F1269A2B2300472829 /* RunDBAccess.swift */; };
+		FED228E9268FBD9D003F2941 /* RunPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED228E8268FBD9D003F2941 /* RunPresenter.swift */; };
+		FEE6139726A0BD5E00BF237B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6139626A0BD5E00BF237B /* CustomTabBar.swift */; };
+		FEF5B34D269DB0CB0064438F /* RunStorageAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5B34C269DB0CB0064438F /* RunStorageAccess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CDDD9679FAB966E8DE70F3A /* Pods-Run Like The Wind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run Like The Wind.debug.xcconfig"; path = "Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind.debug.xcconfig"; sourceTree = "<group>"; };
+		851794DA3871E1764839F527 /* Pods-Run Like The Wind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run Like The Wind.release.xcconfig"; path = "Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind.release.xcconfig"; sourceTree = "<group>"; };
+		D4E83D11DD761395A88E2B82 /* Pods_Run_Like_The_Wind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Run_Like_The_Wind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0258AA269AF20A003B1D0D /* StatisticsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsPresenter.swift; sourceTree = "<group>"; };
+		FE0258AE269B1E86003B1D0D /* StatisticsScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScores.swift; sourceTree = "<group>"; };
+		FE0258B0269CE7E5003B1D0D /* StatisticsDBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDBAccess.swift; sourceTree = "<group>"; };
+		FE0893632688C4B200C8BAA4 /* SingleRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRun.swift; sourceTree = "<group>"; };
+		FE34989C268CD1F5008ACC74 /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		FE34989F268CD394008ACC74 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE3498A4268CDDBB008ACC74 /* SigninPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninPresenter.swift; sourceTree = "<group>"; };
+		FE3498A6268D036A008ACC74 /* RunHistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryPresenter.swift; sourceTree = "<group>"; };
+		FE3498A8268F5261008ACC74 /* RunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunController.swift; sourceTree = "<group>"; };
+		FE3498AC268FA115008ACC74 /* LocationPermissionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionHelper.swift; sourceTree = "<group>"; };
+		FE36872F268A297700A19DD5 /* BMIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIController.swift; sourceTree = "<group>"; };
+		FE368731268A311100A19DD5 /* StatisticsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsController.swift; sourceTree = "<group>"; };
+		FE368735268A4B6E00A19DD5 /* RunsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunsTableViewCell.swift; sourceTree = "<group>"; };
+		FE368736268A4B6E00A19DD5 /* RunsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunsTableViewCell.xib; sourceTree = "<group>"; };
+		FE3F5F4D26821B0000961C50 /* Run Like The Wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Like The Wind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3F5F5026821B0000961C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3F5F5226821B0000961C50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE3F5F5726821B0000961C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3F5F5926821B0000961C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3F5F5C26821B0000961C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3F5F5E26821B0000961C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3F5F6526821D2600961C50 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		FE3F5F6B268231B100961C50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE3F5F6D2683E40E00961C50 /* RunHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryController.swift; sourceTree = "<group>"; };
+		FE4592ED26979BF100472829 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		FE4592F1269A2B2300472829 /* RunDBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDBAccess.swift; sourceTree = "<group>"; };
+		FED228E8268FBD9D003F2941 /* RunPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunPresenter.swift; sourceTree = "<group>"; };
+		FEE6139626A0BD5E00BF237B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FEF5B34C269DB0CB0064438F /* RunStorageAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunStorageAccess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3F5F4A26821B0000961C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3638BF04BB7C5C2B3C80CFE /* Pods_Run_Like_The_Wind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4137541DE3C35985685988E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E83D11DD761395A88E2B82 /* Pods_Run_Like_The_Wind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3232C0F9ED4CF0274780AE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CDDD9679FAB966E8DE70F3A /* Pods-Run Like The Wind.debug.xcconfig */,
+				851794DA3871E1764839F527 /* Pods-Run Like The Wind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE0893622688C2EA00C8BAA4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE0893632688C4B200C8BAA4 /* SingleRun.swift */,
+				FE34989C268CD1F5008ACC74 /* UserAccount.swift */,
+				FE0258AE269B1E86003B1D0D /* StatisticsScores.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE34989E268CD37F008ACC74 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				FE34989F268CD394008ACC74 /* Constants.swift */,
+				FE3498AC268FA115008ACC74 /* LocationPermissionHelper.swift */,
+				FE4592ED26979BF100472829 /* Extentions.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		FE3498A1268CDD4B008ACC74 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				FE3498A2268CDD5D008ACC74 /* presenter */,
+				FE3F5F6426821CA600961C50 /* views */,
+				FE0893622688C2EA00C8BAA4 /* model */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		FE3498A2268CDD5D008ACC74 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE3498A4268CDDBB008ACC74 /* SigninPresenter.swift */,
+				FE3498A6268D036A008ACC74 /* RunHistoryPresenter.swift */,
+				FED228E8268FBD9D003F2941 /* RunPresenter.swift */,
+				FE0258AA269AF20A003B1D0D /* StatisticsPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FE368733268A4B0500A19DD5 /* customUI */ = {
+			isa = PBXGroup;
+			children = (
+				FE368735268A4B6E00A19DD5 /* RunsTableViewCell.swift */,
+				FE368736268A4B6E00A19DD5 /* RunsTableViewCell.xib */,
+				FEE6139626A0BD5E00BF237B /* CustomTabBar.swift */,
+			);
+			path = customUI;
+			sourceTree = "<group>";
+		};
+		FE3F5F4426821B0000961C50 = {
+			isa = PBXGroup;
+			children = (
+				FE3F5F4F26821B0000961C50 /* Run Like The Wind */,
+				FE3F5F4E26821B0000961C50 /* Products */,
+				B3232C0F9ED4CF0274780AE2 /* Pods */,
+				4137541DE3C35985685988E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3F5F4E26821B0000961C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F5F4D26821B0000961C50 /* Run Like The Wind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3F5F4F26821B0000961C50 /* Run Like The Wind */ = {
+			isa = PBXGroup;
+			children = (
+				FE4592EF269A2ADA00472829 /* DB */,
+				FE3498A1268CDD4B008ACC74 /* MVP */,
+				FE34989E268CD37F008ACC74 /* util */,
+				FE368733268A4B0500A19DD5 /* customUI */,
+				FE3F5F5026821B0000961C50 /* AppDelegate.swift */,
+				FE3F5F5226821B0000961C50 /* SceneDelegate.swift */,
+				FE3F5F5626821B0000961C50 /* Main.storyboard */,
+				FE3F5F5926821B0000961C50 /* Assets.xcassets */,
+				FE3F5F5B26821B0000961C50 /* LaunchScreen.storyboard */,
+				FE3F5F5E26821B0000961C50 /* Info.plist */,
+				FE3F5F6B268231B100961C50 /* GoogleService-Info.plist */,
+			);
+			path = "Run Like The Wind";
+			sourceTree = "<group>";
+		};
+		FE3F5F6426821CA600961C50 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F5F6526821D2600961C50 /* SignInController.swift */,
+				FE3F5F6D2683E40E00961C50 /* RunHistoryController.swift */,
+				FE36872F268A297700A19DD5 /* BMIController.swift */,
+				FE368731268A311100A19DD5 /* StatisticsController.swift */,
+				FE3498A8268F5261008ACC74 /* RunController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FE4592EF269A2ADA00472829 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5B34B269DA4190064438F /* FirebaseStorage */,
+				FE4592F0269A2AF000472829 /* FireStore */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		FE4592F0269A2AF000472829 /* FireStore */ = {
+			isa = PBXGroup;
+			children = (
+				FE4592F1269A2B2300472829 /* RunDBAccess.swift */,
+				FE0258B0269CE7E5003B1D0D /* StatisticsDBAccess.swift */,
+			);
+			path = FireStore;
+			sourceTree = "<group>";
+		};
+		FEF5B34B269DA4190064438F /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5B34C269DB0CB0064438F /* RunStorageAccess.swift */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3F5F4C26821B0000961C50 /* Run Like The Wind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3F5F6126821B0000961C50 /* Build configuration list for PBXNativeTarget "Run Like The Wind" */;
+			buildPhases = (
+				A45A02D14B4F60AE0AF83C04 /* [CP] Check Pods Manifest.lock */,
+				FE3F5F4926821B0000961C50 /* Sources */,
+				FE3F5F4A26821B0000961C50 /* Frameworks */,
+				FE3F5F4B26821B0000961C50 /* Resources */,
+				CA67C80B660383BB57431849 /* [CP] Embed Pods Frameworks */,
+				413064A4C0BAC2497D39B2E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Run Like The Wind";
+			productName = "Run Like The Wind";
+			productReference = FE3F5F4D26821B0000961C50 /* Run Like The Wind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3F5F4526821B0000961C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FE3F5F4C26821B0000961C50 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FE3F5F4826821B0000961C50 /* Build configuration list for PBXProject "Run Like The Wind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3F5F4426821B0000961C50;
+			productRefGroup = FE3F5F4E26821B0000961C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3F5F4C26821B0000961C50 /* Run Like The Wind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3F5F4B26821B0000961C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3F5F5D26821B0000961C50 /* LaunchScreen.storyboard in Resources */,
+				FE3F5F6C268231B100961C50 /* GoogleService-Info.plist in Resources */,
+				FE368738268A4B6E00A19DD5 /* RunsTableViewCell.xib in Resources */,
+				FE3F5F5A26821B0000961C50 /* Assets.xcassets in Resources */,
+				FE3F5F5826821B0000961C50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		413064A4C0BAC2497D39B2E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45A02D14B4F60AE0AF83C04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Run Like The Wind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA67C80B660383BB57431849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Run Like The Wind/Pods-Run Like The Wind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3F5F4926821B0000961C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3F5F6E2683E40E00961C50 /* RunHistoryController.swift in Sources */,
+				FE3F5F6626821D2600961C50 /* SignInController.swift in Sources */,
+				FE34989D268CD1F5008ACC74 /* UserAccount.swift in Sources */,
+				FE368730268A297700A19DD5 /* BMIController.swift in Sources */,
+				FE0893642688C4B200C8BAA4 /* SingleRun.swift in Sources */,
+				FE0258AB269AF20A003B1D0D /* StatisticsPresenter.swift in Sources */,
+				FE3498A0268CD394008ACC74 /* Constants.swift in Sources */,
+				FE368732268A311100A19DD5 /* StatisticsController.swift in Sources */,
+				FE3498AD268FA115008ACC74 /* LocationPermissionHelper.swift in Sources */,
+				FE368737268A4B6E00A19DD5 /* RunsTableViewCell.swift in Sources */,
+				FE3F5F5126821B0000961C50 /* AppDelegate.swift in Sources */,
+				FE3F5F5326821B0000961C50 /* SceneDelegate.swift in Sources */,
+				FED228E9268FBD9D003F2941 /* RunPresenter.swift in Sources */,
+				FEF5B34D269DB0CB0064438F /* RunStorageAccess.swift in Sources */,
+				FEE6139726A0BD5E00BF237B /* CustomTabBar.swift in Sources */,
+				FE4592EE26979BF100472829 /* Extentions.swift in Sources */,
+				FE0258AF269B1E86003B1D0D /* StatisticsScores.swift in Sources */,
+				FE3498A5268CDDBB008ACC74 /* SigninPresenter.swift in Sources */,
+				FE4592F2269A2B2300472829 /* RunDBAccess.swift in Sources */,
+				FE3498A9268F5261008ACC74 /* RunController.swift in Sources */,
+				FE0258B1269CE7E5003B1D0D /* StatisticsDBAccess.swift in Sources */,
+				FE3498A7268D036A008ACC74 /* RunHistoryPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE3F5F5626821B0000961C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3F5F5726821B0000961C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3F5F5B26821B0000961C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3F5F5C26821B0000961C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3F5F5F26821B0000961C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3F5F6026821B0000961C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3F5F6226821B0000961C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDDD9679FAB966E8DE70F3A /* Pods-Run Like The Wind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2GRSXV9NJ;
+				INFOPLIST_FILE = "Run Like The Wind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YBDev.Run-Like-The-Wind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE3F5F6326821B0000961C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851794DA3871E1764839F527 /* Pods-Run Like The Wind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2GRSXV9NJ;
+				INFOPLIST_FILE = "Run Like The Wind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YBDev.Run-Like-The-Wind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3F5F4826821B0000961C50 /* Build configuration list for PBXProject "Run Like The Wind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3F5F5F26821B0000961C50 /* Debug */,
+				FE3F5F6026821B0000961C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3F5F6126821B0000961C50 /* Build configuration list for PBXNativeTarget "Run Like The Wind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3F5F6226821B0000961C50 /* Debug */,
+				FE3F5F6326821B0000961C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3F5F4526821B0000961C50 /* Project object */;
+}
